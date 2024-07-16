@@ -1,0 +1,4 @@
+Flask==3.0.3
+SQLAlchemy==2.0.31
+Flask-Migrate==4.0.7
+Flask-HTTPAuth==4.8.0
