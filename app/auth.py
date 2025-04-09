@@ -11,5 +11,5 @@ def verify_password(username, password):
         return user
 
 def init_app(app: Flask):
-    app.config['SECRET_KEY'] = 'mysecret'
+    app.config['SECRET_KEY'] = app.config.get('SECRET_KEY','mysecretkey')
     app.config['BASIC_AUTH_FORCE'] = True
