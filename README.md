@@ -18,8 +18,8 @@ Este proyecto implementa una API RESTful con Flask para la gestión de datos de 
 ## Instalación
 
 ```bash
-git clone https://github.com/tuusuario/tu-repo.git
-cd tu-repo
+git clone https://github.com/drachens/IoTAPIFlask.git
+cd IoTAPIFlask
 python -m venv venv
 source venv/bin/activate  # En Windows: venv\Scripts\activate
 pip install -r requirements.txt
@@ -151,4 +151,4 @@ Authorization: Basic ...
 
 ## Contacto
 
-Desarrollado por Italo Piermartiri. Para consultas o colaboraciones, puedes escribirme a: [italo.piermartiri@mail.udp.cl]
+Desarrollado por Italo Piermartiri. Para consultas o colaboraciones, puedes escribirme a: italo.piermartiri@mail.udp.cl
